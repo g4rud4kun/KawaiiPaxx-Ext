@@ -1,0 +1,21 @@
+{
+    "name": "KawaiiPaxx",
+    "version": "1.0.0",
+    "description": "A chrome extension to save your credentials of all the different apps; instead of memorizing, just copy and paste.",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "enc_lock_2.png"
+    },
+    "permissions": ["activeTab",
+    "https://kawaiipaxx.pythonanywhere.com/"
+  ],
+
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; frame-src https://kawaiipaxx.pythonanywhere.com chrome-extension://abkmnkonalofpmfohkanbgadgcebbnco"
+    },
+
+    "icons": {
+      "128": "enc_lock_2.png"
+    }
+  }
