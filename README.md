@@ -1,1 +1,1 @@
-I attempted to develop a Chrome extension for KawaiiPaxx, but my limited understanding of backend processes led to the emergence of a CSRF issue. Lacking a clear solution and constrained by time, I faced challenges in moving forward with the project. The files I employed in the initial creation are provided, and despite these setbacks, I remain committed to exploring and resolving the issues to progress further.
+Chrome extension for KawaiiPaxx, which is a secure password manager.
